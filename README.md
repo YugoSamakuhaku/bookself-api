@@ -34,7 +34,7 @@
 
 # 📝 TODO LIST
 
-#### Kriteria 1 : API dapat menyimpan buku
+#### 📄 Kriteria 1 : API dapat menyimpan buku
 
 - ✅ Client tidak melampirkan properti namepada request body
 - ✅ Client melampirkan nilai properti readPage yang lebih besar dari nilai properti pageCount
