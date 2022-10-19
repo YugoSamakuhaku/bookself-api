@@ -96,15 +96,15 @@
 
 #### 📮 POSTMAN Test Ops-1
 
-✅ Add Reading and Finished Book
-✅ Add Reading and Unfinished Book with "Dicoding" Name
-✅ Add Unreading Books and Unfinished Book "Dicoding" Name
-✅ Add Unreading Books and Unfinished Book
+- ✅ Add Reading and Finished Book
+- ✅ Add Reading and Unfinished Book with "Dicoding" Name
+- ✅ Add Unreading Books and Unfinished Book "Dicoding" Name
+- ✅ Add Unreading Books and Unfinished Book
 
 #### 📮 POSTMAN Test Ops-2
 
-✅ [Optional] Get All Reading Books
-✅ [Optional] Get All Unreading Books
-✅ [Optional] Get All Finished Books
-✅ [Optional] Get All Unfinished Books
-✅ [Optional] Get All Books Contains "Dicoding" Name
+- ✅ [Optional] Get All Reading Books
+- ✅ [Optional] Get All Unreading Books
+- ✅ [Optional] Get All Finished Books
+- ✅ [Optional] Get All Unfinished Books
+- ✅ [Optional] Get All Books Contains "Dicoding" Name
