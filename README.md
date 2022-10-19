@@ -22,15 +22,15 @@
 
 5.  Membuat Struktur Proyek
 
-- src `folder`
-  -- books.js
-  -- handler.js
-  -- routes.js
-  -- server.js
+    - src `folder`
+      - books.js
+      - handler.js
+      - routes.js
+      - server.js
 
-6. Install package nanoid
-   - `Note:` nanoid: package untuk membuat sebuah unique ID secara otomatis.
-   - `npm install nanoid@3.3.4`
+6.  Install package nanoid
+    - `Note:` nanoid: package untuk membuat sebuah unique ID secara otomatis.
+    - `npm install nanoid@3.3.4`
 
 # 📝 TODO LIST
 
