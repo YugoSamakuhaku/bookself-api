@@ -1,0 +1,111 @@
+# [Bookself API]
+
+> Proyek Akhir Pelatihan **_"Belajar Membuat Aplikasi Back-End untuk Pemula"_**
+
+## 📑 Persiapan Proyek
+
+1.  Membuat file package.json
+    `npm init --y`
+2.  Install Framework NodeJS HAPI
+    'Note:' hapi: framework yang digunakan untuk membuat sebuah RESTful API
+    `npm install @hapi/hapi`
+3.  Install package nodemon
+    `Note:` nodemon: package untuk restart otomatis aplikasi yang sedang dijalankan.
+    `npm install nodemon --save-dev`
+4.  Install package eslint
+    `Note:` eslint: package untuk memperbaiki kualtias kode.
+    `npm install eslint --save-dev`
+
+        `Note kode dibawah:` Digunakan untuk membuat file.eslintrc.json
+        ```npx eslint --init```
+
+5.  Membuat Struktur Proyek
+
+- src `folder`
+  -- books.js
+  -- handler.js
+  -- routes.js
+  -- server.js
+- package.json
+
+6. Install package nanoid
+   `Note:` nanoid: package untuk membuat sebuah unique ID secara otomatis.
+   `npm install nanoid@3.3.4`
+
+# 📝 TODO LIST
+
+#### Kriteria 1 : API dapat menyimpan buku
+
+[x] API yang Anda buat harus dapat menyimpan buku melalui route
+[x] Client tidak melampirkan properti namepada request body
+[x] Client melampirkan nilai properti readPage yang lebih besar dari nilai properti pageCount
+[x] Server gagal memasukkan buku karena alasan umum (generic error)
+[x] Bila buku berhasil dimasukkan
+
+#### 📄 Kriteria 2 : API dapat menampilkan seluruh buku
+
+[x] API yang Anda buat harus dapat menampilkan seluruh buku yang disimpan melalui route
+[x] Server harus mengembalikan respons
+[x] Jika belum terdapat buku yang dimasukkan, server bisa merespons dengan array books kosong
+
+#### 📄 Kriteria 3 : API dapat menampilkan detail buku
+
+[x] API yang Anda buat harus dapat menampilkan seluruh buku yang disimpan melalui route
+[x] Bila buku dengan id yang dilampirkan oleh client tidak ditemukan
+[x] Bila buku dengan id yang dilampirkan ditemukan
+
+#### 📄 Kriteria 4 : API dapat mengubah data buku
+
+[x] API yang Anda buat harus dapat mengubah data buku berdasarkan id melalui route
+[x] Client tidak melampirkan properti name pada request body
+[x] Client melampirkan nilai properti readPage yang lebih besar dari nilai properti pageCount
+[x] Id yang dilampirkan oleh client tidak ditemukkan oleh server
+[x] Bila buku berhasil diperbarui
+
+#### 📄 Kriteria 5 : API dapat menghapus buku
+
+[x] API yang Anda buat harus dapat menghapus buku berdasarkan id melalui route
+[x] Bila id yang dilampirkan tidak dimiliki oleh buku manapun
+[x] Bila id dimiliki oleh salah satu buku
+
+#### 📮 POSTMAN Test Kriteria 1
+
+[x] [Mandatory] Add Book With Complete Data
+[x] [Mandatory] Add Book Without Name
+[x] [Mandatory] Add Book with Page Read More Than Page Count
+
+#### 📮 POSTMAN Test Kriteria 2
+
+[x] [Mandatory] Get All Books
+
+#### 📮 POSTMAN Test Kriteria 3
+
+[x] [Mandatory] Get Detail Books With Correct Id
+[x] [Mandatory] Get Detail Books With Invalid Id
+
+#### 📮 POSTMAN Test Kriteria 4
+
+[x] [Mandatory] Update Book With Complete Data
+[x] [Mandatory] Update Book Without Name
+[x] [Mandatory] Update Book With Page Read More Than Page Count
+[x] [Mandatory] Update Book with Invalid Id
+
+#### 📮 POSTMAN Test Kriteria 5
+
+[x] [Mandatory] Delete Book with Correct Id
+[x] [Mandatory] Delete Book with Invalid Id
+
+#### 📮 POSTMAN Test Ops-1
+
+[x] Add Reading and Finished Book
+[x] Add Reading and Unfinished Book with "Dicoding" Name
+[x] Add Unreading Books and Unfinished Book "Dicoding" Name
+[x] Add Unreading Books and Unfinished Book
+
+#### 📮 POSTMAN Test Ops-2
+
+[x] [Optional] Get All Reading Books
+[x] [Optional] Get All Unreading Books
+[x] [Optional] Get All Finished Books
+[x] [Optional] Get All Unfinished Books
+[x] [Optional] Get All Books Contains "Dicoding" Name
